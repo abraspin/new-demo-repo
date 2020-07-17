@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Activity 1: Basic HTML Bio</title>
+
+  <!-- this points my html to the css file -->
+  <link rel="stylesheet" href="studentBioLayoutStyle.css">
+  <!-- relative path so the git repo makes sense -->
+  
+
+</head>
+
+<body>
+
+  <!-- Site Header -->
+  <header>
+    <!-- h1: The most important headline -->
+    <h1>Student Bio</h1>
+  </header>
+
+  <div class="container">
+
+    <!-- Section 1: Bio -->
+    <section id="main-bio">
+
+      <!-- h2: Tier-2 Headline (Not as important as the h1 header, but more than one allowed). -->
+      <h2>Avatar Aang</h2>
+
+      <!-- Image with link -->
+      <img src="https://i.pinimg.com/originals/a4/4a/f3/a44af3bb5f074e3cdb4be8a56232c996.jpg" 
+      alt="Picture of me" id="bio-image">
+      <!-- NOTE the id for an image goes at the end of the self closing tag -->
+      
+      <!-- Paragraph with embedded link -->
+      <p>Hi! I'm Aang. I'm the Avatar and I love helping people. My favorite things are koi-surfing, playing air ball, and my 6 ton flying bison. Let me know if you need any help and thanks for visiting my website!
+      </p>
+
+    </section>
+
+    <!-- Section 2: Contact Info -->
+    <section id="contact-info">
+
+      <!-- h2: Tier-2 Headline -->
+      <h2>Contact Info</h2>
+
+      <!-- Unordered list -->
+      <ul>
+        <li><strong>Email:</strong> <br> <a href="#">AvAang@NorthernAirTemple.com</a></li> <br>
+        <li><strong>Github:</strong> <br> <a href="#">AangGang</a></li> <br>
+        <li><strong>Portfolio:</strong> <br> <a href="#">coming soon</a></li>
+      </ul>
+    </section>
+
+  </div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+    <hr>
+
+    <div id="videos">
+        <hr>
+
+        <h2 class="centered">Impressed yet? Check this out!</h2>
+
+        <section id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/phgZLFQSvss" 
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </section>
+    </div>
+
+</body>
+
+</html>
